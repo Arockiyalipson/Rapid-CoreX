@@ -1,0 +1,1 @@
+This folder has Drill  position of each component in the BMS BOARD
