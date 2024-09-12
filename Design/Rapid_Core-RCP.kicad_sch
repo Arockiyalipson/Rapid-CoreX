@@ -747,6 +747,149 @@
         )
       )
     )
+    (symbol "Regulator_Switching:CRE1S0505S3C" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at -8.89 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "CRE1S0505S3C" (at 2.54 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_CRE1xxxxxx3C_THT" (at 0 -10.16 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf" (at 0 -12.7 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "Murata isolated isolation dc-dc converter transformer" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "5V to 5V 200mA, Isolated 2W Single-Output DC-DC Converter Modules with 3kV isolation, SIP-4" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Converter*DCDC*Murata*CRE1xxxxxx3C*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CRE1S0505S3C_0_1"
+        (rectangle (start -10.16 7.62) (end 10.16 -7.62)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -5.334)
+            (xy -0.635 -6.604)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -2.794)
+            (xy -0.635 -4.064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -0.254)
+            (xy -0.635 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 2.286)
+            (xy -0.635 1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 4.826)
+            (xy -0.635 3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 7.366)
+            (xy -0.635 6.096)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -7.366)
+            (xy 0.635 -6.096)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -4.826)
+            (xy 0.635 -3.556)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 -2.286)
+            (xy 0.635 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0.254)
+            (xy 0.635 1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 2.794)
+            (xy 0.635 4.064)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 5.334)
+            (xy 0.635 6.604)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CRE1S0505S3C_1_1"
+        (pin power_in line (at -12.7 -5.08 0) (length 2.54)
+          (name "-VIN" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -12.7 5.08 0) (length 2.54)
+          (name "+VIN" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 12.7 -5.08 180) (length 2.54)
+          (name "-VOUT" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_out line (at 12.7 5.08 180) (length 2.54)
+          (name "+VOUT" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1510,7 +1653,7 @@
   (symbol (lib_id "Device:C") (at 260.35 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 04a6ea74-d8e3-4806-93d2-a58255c980b5)
-    (property "Reference" "C8" (at 261.62 22.86 0)
+    (property "Reference" "C9" (at 261.62 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 261.62 27.94 0)
@@ -1527,7 +1670,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C8") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -1562,7 +1705,7 @@
   (symbol (lib_id "Device:C") (at 237.49 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 172e1e36-5bf5-405f-8a32-88ec2667553b)
-    (property "Reference" "C5" (at 237.49 22.86 0)
+    (property "Reference" "C6" (at 237.49 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uf" (at 237.49 27.94 0)
@@ -1579,7 +1722,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C5") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -1702,7 +1845,7 @@
   (symbol (lib_id "Device:C") (at 243.84 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e64542d-3e8b-428e-9669-9820b6d1e38f)
-    (property "Reference" "C6" (at 245.11 22.86 0)
+    (property "Reference" "C7" (at 245.11 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uf" (at 243.84 27.94 0)
@@ -1719,7 +1862,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C6") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1728,7 +1871,7 @@
   (symbol (lib_id "power:+3.3V") (at 237.49 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 484a99bd-e889-470e-9b76-5241da4afcff)
-    (property "Reference" "#PWR05" (at 237.49 24.13 0)
+    (property "Reference" "#PWR06" (at 237.49 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 237.49 16.51 0)
@@ -1744,7 +1887,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1753,7 +1896,7 @@
   (symbol (lib_id "power:GND1") (at 237.49 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49f16a6f-55de-4dd2-b234-914420f57cc0)
-    (property "Reference" "#PWR02" (at 237.49 154.94 0)
+    (property "Reference" "#PWR08" (at 237.49 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 237.49 153.67 0)
@@ -1769,7 +1912,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1778,7 +1921,7 @@
   (symbol (lib_id "power:GND1") (at 257.81 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e7e6117-2686-46da-a770-6fe96bcb20d9)
-    (property "Reference" "#PWR06" (at 257.81 36.83 0)
+    (property "Reference" "#PWR010" (at 257.81 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 257.81 34.29 0)
@@ -1794,7 +1937,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1803,7 +1946,7 @@
   (symbol (lib_id "power:+3.3V") (at 237.49 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54c70870-b627-46f5-a49e-95158c6f0954)
-    (property "Reference" "#PWR03" (at 237.49 58.42 0)
+    (property "Reference" "#PWR07" (at 237.49 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 237.49 49.53 0)
@@ -1819,7 +1962,35 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Regulator_Switching:CRE1S0505S3C") (at 114.3 54.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 708392e1-b7d7-4264-8da8-5606bbdfb642)
+    (property "Reference" "U6" (at 114.3 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "CRE1S0505S3C" (at 114.3 44.45 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Converter_DCDC:Converter_DCDC_Murata_CRE1xxxxxx3C_THT" (at 114.3 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://power.murata.com/datasheet?/data/power/ncl/kdc_cre1.pdf" (at 114.3 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e50260dc-bef9-4065-b17a-d4e75c604f9f))
+    (pin "2" (uuid cb4a59f1-b351-4cf1-9baf-85a04775e943))
+    (pin "3" (uuid 691e243f-3e53-4c08-bda7-4869a4401b9d))
+    (pin "4" (uuid 47a92347-1329-4599-a72e-09a25edadf74))
+    (instances
+      (project "Rapid_Core-RCP"
+        (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1828,7 +1999,7 @@
   (symbol (lib_id "Device:C") (at 217.17 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 716bcdb6-12e6-418e-b49c-6da25a5aa35e)
-    (property "Reference" "C3" (at 218.44 24.13 0)
+    (property "Reference" "C4" (at 218.44 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 218.44 29.21 0)
@@ -1845,7 +2016,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1854,7 +2025,7 @@
   (symbol (lib_id "Device:C") (at 213.36 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d9a2b63-e80c-47c2-acbb-20f7f204e38d)
-    (property "Reference" "C11" (at 217.17 132.08 0)
+    (property "Reference" "C3" (at 217.17 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7uf 6.3V XR7" (at 203.2 135.89 0)
@@ -1871,7 +2042,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C11") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1880,7 +2051,7 @@
   (symbol (lib_id "power:+3.3V") (at 223.52 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8360895a-ac00-4f73-8567-94bd72d49a31)
-    (property "Reference" "#PWR01" (at 223.52 48.26 0)
+    (property "Reference" "#PWR04" (at 223.52 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 223.52 39.37 0)
@@ -1896,7 +2067,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1905,7 +2076,7 @@
   (symbol (lib_id "power:GND1") (at 213.36 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b4ea316-732c-497e-83a3-cd9e8d487295)
-    (property "Reference" "#PWR010" (at 213.36 143.51 0)
+    (property "Reference" "#PWR02" (at 213.36 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 213.36 142.24 0)
@@ -1921,7 +2092,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1930,7 +2101,7 @@
   (symbol (lib_id "power:GND1") (at 217.17 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cf392d1-2abb-4893-9ce0-a593cd416acf)
-    (property "Reference" "#PWR09" (at 217.17 38.1 0)
+    (property "Reference" "#PWR03" (at 217.17 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 217.17 35.56 0)
@@ -1946,7 +2117,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1955,7 +2126,7 @@
   (symbol (lib_id "power:+3.3VA") (at 243.84 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a26326bc-28a8-4fea-8b22-dc19623dab37)
-    (property "Reference" "#PWR07" (at 243.84 58.42 0)
+    (property "Reference" "#PWR09" (at 243.84 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 245.11 50.8 0)
@@ -1971,7 +2142,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1980,7 +2151,7 @@
   (symbol (lib_id "power:+3.3V") (at 195.58 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5da052f-fcae-46ce-8148-2a875ebb5554)
-    (property "Reference" "#PWR08" (at 195.58 22.86 0)
+    (property "Reference" "#PWR01" (at 195.58 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 195.58 15.24 0)
@@ -1996,7 +2167,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -2005,7 +2176,7 @@
   (symbol (lib_id "Device:C") (at 276.86 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d81dff65-7075-4e21-a37a-b2d5a66999f4)
-    (property "Reference" "C10" (at 278.13 22.86 0)
+    (property "Reference" "C11" (at 278.13 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 276.86 27.94 0)
@@ -2022,7 +2193,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C10") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -2031,7 +2202,7 @@
   (symbol (lib_id "Device:C") (at 223.52 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid de72c220-31e6-490d-aee4-f172ad32b5f1)
-    (property "Reference" "C4" (at 223.52 45.72 0)
+    (property "Reference" "C5" (at 223.52 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 223.52 50.8 0)
@@ -2048,7 +2219,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -2057,7 +2228,7 @@
   (symbol (lib_id "power:GND1") (at 223.52 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2ce60c7-f452-408e-b842-ef246091973e)
-    (property "Reference" "#PWR04" (at 223.52 58.42 0)
+    (property "Reference" "#PWR05" (at 223.52 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 223.52 55.88 0)
@@ -2073,7 +2244,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -2082,7 +2253,7 @@
   (symbol (lib_id "Device:C") (at 267.97 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6420d36-bba0-45fe-b9b3-3070177574ca)
-    (property "Reference" "C9" (at 269.24 22.86 0)
+    (property "Reference" "C10" (at 269.24 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 269.24 27.94 0)
@@ -2099,7 +2270,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C9") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2108,7 +2279,7 @@
   (symbol (lib_id "Device:C") (at 251.46 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7da1825-75b7-487b-87e6-f0c4de8be0b3)
-    (property "Reference" "C7" (at 252.73 22.86 0)
+    (property "Reference" "C8" (at 252.73 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uf" (at 252.73 27.94 0)
@@ -2125,7 +2296,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-          (reference "C7") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
