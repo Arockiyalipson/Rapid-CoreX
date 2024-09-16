@@ -501,6 +501,10 @@
     [
       "f55b0938-7500-4e0b-96b5-fde9faeb9ba0",
       "Communication_interface"
+    ],
+    [
+      "03c0cb4f-19c3-413c-9319-70c93aa2053e",
+      "Power_Stage"
     ]
   ],
   "text_variables": {}
