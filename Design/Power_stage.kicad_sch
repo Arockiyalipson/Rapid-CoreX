@@ -1559,7 +1559,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 115.57 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1050a934-780d-4154-8a49-38d52311bf44)
-    (property "Reference" "#FLG01" (at 115.57 20.955 0)
+    (property "Reference" "#FLG02" (at 115.57 20.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 115.57 19.05 0)
@@ -1575,7 +1575,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1603,7 +1603,7 @@
           (reference "#PWR050") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -1612,7 +1612,7 @@
   (symbol (lib_id "power:+5V") (at 260.35 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c0a3692-f773-430f-8e33-0d43b4af17bc)
-    (property "Reference" "#PWR0104" (at 260.35 31.75 0)
+    (property "Reference" "#PWR0116" (at 260.35 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 260.35 22.86 0)
@@ -1628,7 +1628,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
       (project "Power_stage"
@@ -1642,7 +1642,7 @@
   (symbol (lib_id "Device:C") (at 236.22 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 23f04554-6d74-4ca0-b513-66077809e399)
-    (property "Reference" "C56" (at 232.41 33.02 0)
+    (property "Reference" "C58" (at 232.41 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF 3.037m" (at 231.14 39.37 0)
@@ -1659,7 +1659,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C56") (unit 1)
+          (reference "C58") (unit 1)
         )
       )
       (project "Power_stage"
@@ -1692,7 +1692,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
       (project "Power_stage"
@@ -1706,7 +1706,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 168.91 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b79cda7-37c6-4647-bb54-2839ba3b8c5b)
-    (property "Reference" "C61" (at 172.72 93.345 0)
+    (property "Reference" "C55" (at 172.72 93.345 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33uF LDO" (at 172.72 95.885 0)
@@ -1723,7 +1723,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C61") (unit 1)
+          (reference "C55") (unit 1)
         )
       )
     )
@@ -1751,7 +1751,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
       (project "Power_stage"
@@ -1794,7 +1794,7 @@
   (symbol (lib_id "Device:R") (at 119.38 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 37dd5aef-acfc-4fa8-b76e-e9b3b0f391c2)
-    (property "Reference" "R34" (at 119.38 96.52 90)
+    (property "Reference" "R42" (at 119.38 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k LDO" (at 119.38 99.06 90)
@@ -1811,7 +1811,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R34") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1842,7 +1842,7 @@
           (reference "U6") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "U3") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1873,7 +1873,7 @@
           (reference "U3") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1882,7 +1882,7 @@
   (symbol (lib_id "Device:C") (at 251.46 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 447fd272-2058-488e-90a8-8753f97e7a56)
-    (property "Reference" "C58" (at 251.46 33.02 0)
+    (property "Reference" "C60" (at 251.46 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF 3.037m" (at 246.38 39.37 0)
@@ -1899,7 +1899,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C58") (unit 1)
+          (reference "C60") (unit 1)
         )
       )
       (project "Power_stage"
@@ -1965,7 +1965,7 @@
           (reference "#PWR045") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -1974,7 +1974,7 @@
   (symbol (lib_id "Device:C") (at 191.77 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d5f77bb-473f-40be-9640-ef613f7f7d65)
-    (property "Reference" "C54" (at 191.77 21.59 0)
+    (property "Reference" "C56" (at 191.77 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF 1m" (at 191.77 26.67 0)
@@ -1991,7 +1991,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C54") (unit 1)
+          (reference "C56") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2025,7 +2025,7 @@
           (reference "R22") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R28") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -2034,7 +2034,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 125.73 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51c2cc12-11c9-43f8-88aa-d8f7428204c6)
-    (property "Reference" "#FLG02" (at 125.73 88.265 0)
+    (property "Reference" "#FLG03" (at 125.73 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 125.73 86.36 0)
@@ -2050,7 +2050,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2059,7 +2059,7 @@
   (symbol (lib_id "Device:R") (at 162.56 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 544f74f1-d3f7-4ec6-8825-d63ca6f1150a)
-    (property "Reference" "R35" (at 162.56 96.52 90)
+    (property "Reference" "R43" (at 162.56 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k LDO" (at 162.56 99.06 90)
@@ -2076,7 +2076,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R35") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -2104,7 +2104,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
           (reference "#PWR048") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -2141,7 +2141,7 @@
   (symbol (lib_id "Device:R") (at 224.79 34.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62efa0de-6a14-46dc-b3b2-9c2d0c21ebf8)
-    (property "Reference" "R32" (at 228.6 33.02 0)
+    (property "Reference" "R45" (at 228.6 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 228.6 35.56 0)
@@ -2158,7 +2158,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R32") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2191,7 +2191,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2224,7 +2224,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2238,7 +2238,7 @@
   (symbol (lib_id "Device:C_Polarized_US") (at 107.95 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 720885d7-bb0f-401a-a870-bd5bd59a6fa9)
-    (property "Reference" "C60" (at 107.95 93.98 0)
+    (property "Reference" "C50" (at 107.95 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "66uF LDO" (at 107.95 101.6 0)
@@ -2255,7 +2255,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C60") (unit 1)
+          (reference "C50") (unit 1)
         )
       )
     )
@@ -2283,7 +2283,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2297,7 +2297,7 @@
   (symbol (lib_id "Device:C") (at 125.73 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e09a2c7-d042-4453-8c4a-1b81f3c400d8)
-    (property "Reference" "C51" (at 127 45.72 0)
+    (property "Reference" "C53" (at 127 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 6.065m" (at 121.92 50.8 0)
@@ -2314,7 +2314,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C51") (unit 1)
+          (reference "C53") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2347,7 +2347,7 @@
           (reference "#PWR052") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2404,7 +2404,7 @@
           (reference "#PWR046") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -2413,7 +2413,7 @@
   (symbol (lib_id "power:+3.3V") (at 168.91 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95a1aeb6-4525-4c4a-b146-9ed92db1e4c5)
-    (property "Reference" "#PWR0107" (at 168.91 93.98 0)
+    (property "Reference" "#PWR0112" (at 168.91 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 168.91 86.36 0)
@@ -2429,7 +2429,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -2457,7 +2457,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2471,7 +2471,7 @@
   (symbol (lib_id "Device:C") (at 110.49 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e4323b-8946-441c-86ee-a8622fba9cea)
-    (property "Reference" "C49" (at 111.76 29.21 0)
+    (property "Reference" "C51" (at 111.76 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22uF 1m" (at 110.49 34.29 0)
@@ -2488,7 +2488,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C49") (unit 1)
+          (reference "C51") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2502,7 +2502,7 @@
   (symbol (lib_id "Device:L") (at 203.2 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aba7b18c-99de-4852-b465-0357e3d13a46)
-    (property "Reference" "L3" (at 203.2 24.13 90)
+    (property "Reference" "L5" (at 203.2 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "15uH 19mohm" (at 200.66 30.48 90)
@@ -2519,7 +2519,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "L3") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2533,7 +2533,7 @@
   (symbol (lib_id "Device:C") (at 243.84 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5ea6e61-5553-41a6-82a1-6e03c3659b6b)
-    (property "Reference" "C57" (at 240.03 33.02 0)
+    (property "Reference" "C59" (at 240.03 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47uF 3.037m" (at 238.76 30.48 0)
@@ -2550,7 +2550,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C57") (unit 1)
+          (reference "C59") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2583,7 +2583,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2616,7 +2616,7 @@
           (reference "#PWR047") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -2644,7 +2644,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -2672,7 +2672,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2686,7 +2686,7 @@
   (symbol (lib_id "Device:C") (at 123.19 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c669807b-43aa-4ac1-8bd7-9d6df1423cfc)
-    (property "Reference" "C50" (at 124.46 29.21 0)
+    (property "Reference" "C52" (at 124.46 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.22uF 1m" (at 125.73 31.75 0)
@@ -2703,7 +2703,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C50") (unit 1)
+          (reference "C52") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2717,7 +2717,7 @@
   (symbol (lib_id "Device:C") (at 101.6 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7845ca5-c6bc-46d7-9fa7-09a89229daa3)
-    (property "Reference" "C48" (at 102.87 29.21 0)
+    (property "Reference" "C49" (at 102.87 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7F 1mOhm" (at 96.52 34.29 0)
@@ -2734,7 +2734,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C48") (unit 1)
+          (reference "C49") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2767,7 +2767,7 @@
           (reference "#PWR072") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2842,7 +2842,7 @@
   (symbol (lib_id "Device:C") (at 213.36 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1343204-ee07-471d-8d30-009cf95e5ac8)
-    (property "Reference" "C55" (at 213.36 31.75 0)
+    (property "Reference" "C57" (at 213.36 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10pf 0ohm" (at 213.36 36.83 0)
@@ -2859,7 +2859,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C55") (unit 1)
+          (reference "C57") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2903,7 +2903,7 @@
   (symbol (lib_id "power:+24V") (at 101.6 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eef6a51b-1818-452d-b352-c32fbc5fc1c5)
-    (property "Reference" "#PWR097" (at 101.6 27.94 0)
+    (property "Reference" "#PWR0104" (at 101.6 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 101.6 19.05 0)
@@ -2919,7 +2919,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2933,7 +2933,7 @@
   (symbol (lib_id "Device:R") (at 224.79 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0948edd-c791-4357-9e02-56766239338d)
-    (property "Reference" "R33" (at 228.6 45.72 0)
+    (property "Reference" "R46" (at 228.6 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "24.9k" (at 228.6 48.26 0)
@@ -2950,7 +2950,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R33") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
       (project "Power_stage"
@@ -2964,7 +2964,7 @@
   (symbol (lib_id "Device:C") (at 137.16 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f9158dc3-b501-4d41-b4d9-36b17c999020)
-    (property "Reference" "C53" (at 137.16 45.72 0)
+    (property "Reference" "C54" (at 137.16 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF 6.065m" (at 133.35 53.34 0)
@@ -2981,7 +2981,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C53") (unit 1)
+          (reference "C54") (unit 1)
         )
       )
       (project "Power_stage"
@@ -3014,7 +3014,7 @@
           (reference "#PWR051") (unit 1)
         )
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -3023,7 +3023,7 @@
   (symbol (lib_id "power:+3.3V") (at 58.42 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb93eb9c-4dd5-4dfa-8b15-34b60a209a48)
-    (property "Reference" "#PWR045" (at 58.42 25.4 0)
+    (property "Reference" "#PWR0102" (at 58.42 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 58.42 17.78 0)
@@ -3039,7 +3039,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -3048,7 +3048,7 @@
   (symbol (lib_id "Device:C") (at 260.35 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbb03fce-ebd3-421d-b349-2c04fcb6950d)
-    (property "Reference" "C59" (at 260.35 34.29 0)
+    (property "Reference" "C61" (at 260.35 34.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF 20m" (at 260.35 39.37 0)
@@ -3065,7 +3065,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "C59") (unit 1)
+          (reference "C61") (unit 1)
         )
       )
       (project "Power_stage"
@@ -3079,7 +3079,7 @@
   (symbol (lib_id "Device:R") (at 195.58 43.18 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid feeb7b4e-d2ed-43fb-8d64-7eaf1f41ef9b)
-    (property "Reference" "R31" (at 195.58 40.64 90)
+    (property "Reference" "R44" (at 195.58 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k" (at 195.58 43.18 90)
@@ -3096,7 +3096,7 @@
     (instances
       (project "Rapid_Core-RCP"
         (path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/03c0cb4f-19c3-413c-9319-70c93aa2053e"
-          (reference "R31") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
       (project "Power_stage"
