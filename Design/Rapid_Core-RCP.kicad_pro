@@ -835,10 +835,6 @@
       {
         "netclass": "VCAP",
         "pattern": "/VCAP"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "/FIL*"
       }
     ]
   },
