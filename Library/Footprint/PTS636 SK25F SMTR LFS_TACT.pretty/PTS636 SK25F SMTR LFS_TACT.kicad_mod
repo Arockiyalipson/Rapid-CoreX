@@ -1,0 +1,106 @@
+(footprint "PTS636 SK25F SMTR LFS_TACT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "79bd2a15-ac2d-410e-832b-1de2ca819b13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTS636 SK25F SMTR LFS_TACT"
+		(at 0 8.89 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c3051684-7eee-47e3-b39d-6fc564a99e4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2706a05d-bd52-4ea0-befe-4a442b7301d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26a05e76-972e-431b-88c2-c75945aa196d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "447f4c49-3fb8-43f4-b9e8-41eb39be6dbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.15 -1.85)
+		(end 3.15 1.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a3b289f0-8642-4d03-9589-f7e4bfa5f0b4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "430d13a3-bab2-48bc-a227-93b2dd815d9e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 1.75 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ecc99cd-f5cf-4ced-bf4b-eec968f7b07e")
+	)
+	(pad "2" smd rect
+		(at 3 0)
+		(size 1.75 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8069f318-22d4-4e94-9c40-a7fc90b39e2a")
+	)
+)

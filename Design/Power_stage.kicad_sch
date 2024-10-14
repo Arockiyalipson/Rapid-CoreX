@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "7bffcefe-7f3b-476f-8594-e7a7d14ba0bb")
 	(paper "A4")
+	(title_block
+		(title "Rapid-Core")
+		(date "2024-09-09")
+		(rev "1.0.0")
+	)
 	(lib_symbols
 		(symbol "+24V_1"
 			(power)
@@ -4481,7 +4486,7 @@
 	)
 	(text "Synchronus Buck Converter"
 		(exclude_from_sim no)
-		(at 96.52 15.24 0)
+		(at 98.298 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
