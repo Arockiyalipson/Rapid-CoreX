@@ -7,7 +7,7 @@
 	(title_block
 		(title "Rapid-Core")
 		(date "2024-09-09")
-		(rev "1.0.0")
+		(rev "1.0.1")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
@@ -2789,465 +2789,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fiducial Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "SHT30A-DIS-B2_5KS:SHT30A-DIS-B2.5KS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 3.81 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SHT30A-DIS-B2.5KS"
-				(at -11.43 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SHT30A-DIS-B2.5KS:SON50P250X250X100-9N-D"
-				(at 31.75 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://sensirion.com/media/documents/68C84E66/61641CAE/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf"
-				(at 31.75 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 31.75 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "403-SHT30ADIS-B2.5KS"
-				(at 31.75 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT30A-DIS-B2.5KS?qs=vHuUswq2%252BswKlkedscwYEA%3D%3D"
-				(at 31.75 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Sensirion"
-				(at 31.75 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SHT30A-DIS-B2.5KS"
-				(at 31.75 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SHT30A-DIS-B2.5KS_1_1"
-				(rectangle
-					(start -12.7 8.89)
-					(end 12.7 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 -6.35 0)
-					(length 5.08)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 1.27 180)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 13.97 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -17.78 1.27 0)
-					(length 5.08)
-					(name "NRESET"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -13.97 90)
-					(length 5.08)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -13.97 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -13.97 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "STM32F446RETx_1"
+		(symbol "MCU_ST_STM32F4:STM32F446RETx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3323,7 +2865,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32F446RETx_1_0_1"
+			(symbol "STM32F446RETx_0_1"
 				(rectangle
 					(start -15.24 -43.18)
 					(end 15.24 43.18)
@@ -3336,7 +2878,7 @@
 					)
 				)
 			)
-			(symbol "STM32F446RETx_1_1_1"
+			(symbol "STM32F446RETx_1_1"
 				(pin power_in line
 					(at -5.08 45.72 270)
 					(length 2.54)
@@ -4824,6 +4366,464 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SHT30A-DIS-B2_5KS:SHT30A-DIS-B2.5KS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 3.81 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SHT30A-DIS-B2.5KS"
+				(at -11.43 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHT30A-DIS-B2.5KS:SON50P250X250X100-9N-D"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://sensirion.com/media/documents/68C84E66/61641CAE/Sensirion_Humidity_Sensors_SHT3xA_Datasheet.pdf"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Humidity/Temperature Sensor Digital Serial (I2C) Automotive 8-Pin DFN EP T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "403-SHT30ADIS-B2.5KS"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT30A-DIS-B2.5KS?qs=vHuUswq2%252BswKlkedscwYEA%3D%3D"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Sensirion"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SHT30A-DIS-B2.5KS"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SHT30A-DIS-B2.5KS_1_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -6.35 0)
+					(length 5.08)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 1.27 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 13.97 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 1.27 0)
+					(length 5.08)
+					(name "NRESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -13.97 90)
+					(length 5.08)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -13.97 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -13.97 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -5384,12 +5384,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f117305-7ad9-417b-bfaf-d4e7fbc66587")
-	)
-	(junction
-		(at 213.36 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7feb5e5f-3d40-46e6-8732-4917e7ad3135")
 	)
 	(junction
 		(at 203.2 24.13)
@@ -6515,7 +6509,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 113.03) (xy 217.17 113.03)
+			(xy 199.39 113.03) (xy 217.17 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6692,16 +6686,6 @@
 			(type default)
 		)
 		(uuid "71ff8495-fedb-4056-9b3a-51c3ab158281")
-	)
-	(wire
-		(pts
-			(xy 213.36 110.49) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "721d2e11-a808-48ad-89ad-fec27ddba1f5")
 	)
 	(wire
 		(pts
@@ -7602,16 +7586,6 @@
 			(type default)
 		)
 		(uuid "ce7d159a-7344-4619-9f69-ae6fc2c82ab0")
-	)
-	(wire
-		(pts
-			(xy 199.39 113.03) (xy 213.36 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d33425c4-ee4d-45ca-b7e7-7f14b1cc8d3b")
 	)
 	(wire
 		(pts
@@ -16718,263 +16692,6 @@
 		)
 	)
 	(symbol
-		(lib_name "STM32F446RETx_1")
-		(lib_id "MCU_ST_STM32F4:STM32F446RETx")
-		(at 234.95 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c25390b8-4e46-43d3-bc93-ec5337574c68")
-		(property "Reference" "U1"
-			(at 247.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STM32F446RETx"
-			(at 227.33 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 219.71 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446re.pdf"
-			(at 234.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5aabc8c-f4bd-4715-a881-3c249ddc3ab4")
-		)
-		(pin "10"
-			(uuid "1975f385-99f9-46d1-b413-7ab7ffd5213c")
-		)
-		(pin "11"
-			(uuid "92ef0ebf-f68c-454e-bbcd-eea5dfb79c18")
-		)
-		(pin "12"
-			(uuid "94695b4d-82fd-4c93-944f-57fe34404055")
-		)
-		(pin "13"
-			(uuid "a0061065-8a18-4b46-9270-e4d0b0678ab7")
-		)
-		(pin "14"
-			(uuid "5b4782b8-e42f-4a90-8d5b-83163655691d")
-		)
-		(pin "15"
-			(uuid "7f0f9612-8e0d-4f11-9692-9518343568e4")
-		)
-		(pin "16"
-			(uuid "e1d26a2d-8973-42d9-ac04-5a5503ed9f02")
-		)
-		(pin "17"
-			(uuid "3073a6ab-a483-45cc-b9d7-123694d2ba53")
-		)
-		(pin "18"
-			(uuid "9d527473-477f-469d-ab6f-967d3ca51211")
-		)
-		(pin "19"
-			(uuid "3fc10905-ce86-4628-92c3-a543e12dcfe7")
-		)
-		(pin "2"
-			(uuid "419c645f-4a93-4f1c-9542-85eb65d4888e")
-		)
-		(pin "20"
-			(uuid "27e006e2-b2eb-4a42-8097-d1733e89f8f2")
-		)
-		(pin "21"
-			(uuid "3e116c04-76af-475c-91df-94006bf90a07")
-		)
-		(pin "22"
-			(uuid "471c1331-814e-4937-9c53-a389b87b8c4e")
-		)
-		(pin "23"
-			(uuid "1be5f64f-4aa8-4d5b-863e-f2cc4cfbb746")
-		)
-		(pin "24"
-			(uuid "d82f5c76-2b51-41cd-a99f-1509f411c949")
-		)
-		(pin "25"
-			(uuid "8a80b99d-bdef-4570-ab38-9b27f8c43039")
-		)
-		(pin "26"
-			(uuid "d6025e12-ea07-4ca7-bf89-9c0cfc1bca31")
-		)
-		(pin "27"
-			(uuid "901de2c3-7583-452c-8eeb-3a27dc4b5acf")
-		)
-		(pin "28"
-			(uuid "ebc8de40-2494-4b58-9746-694d27aea0b6")
-		)
-		(pin "29"
-			(uuid "393e8611-b500-4dde-8e19-50cc30b80c17")
-		)
-		(pin "3"
-			(uuid "4bd358ef-32b2-46c9-a13a-50d4d20343e4")
-		)
-		(pin "30"
-			(uuid "0908079e-345a-40e0-9780-b2bf84e54590")
-		)
-		(pin "31"
-			(uuid "08c8fc12-d97a-44b4-89f5-986cf197b2c6")
-		)
-		(pin "32"
-			(uuid "1c88d9ea-6dd2-42f6-91f3-7b87dbc6f494")
-		)
-		(pin "33"
-			(uuid "ed6864e5-d467-4b00-932e-db23b1dd4ada")
-		)
-		(pin "34"
-			(uuid "c1f6d939-e63d-45ec-87e5-fab20c05507c")
-		)
-		(pin "35"
-			(uuid "46f1eed1-c38d-4a16-b076-2347285eb7a5")
-		)
-		(pin "36"
-			(uuid "2f4307be-8ed8-4088-ab0e-ff4326e6866a")
-		)
-		(pin "37"
-			(uuid "cab77a20-92ec-4fd7-bdd6-a82a069212e0")
-		)
-		(pin "38"
-			(uuid "102470bb-23b6-452d-8366-d515e5bc6da2")
-		)
-		(pin "39"
-			(uuid "52846455-c396-466a-a6a0-da48083e5e4d")
-		)
-		(pin "4"
-			(uuid "341830e8-966b-4c12-b8f5-76ae72882f87")
-		)
-		(pin "40"
-			(uuid "10481de0-0224-4e72-8264-71c6b6a9efdd")
-		)
-		(pin "41"
-			(uuid "e64aff48-9b16-4a7d-9163-ff2cb80f79b6")
-		)
-		(pin "42"
-			(uuid "b7692b24-e6c9-4a26-ac00-990d3f485a22")
-		)
-		(pin "43"
-			(uuid "92f47004-594a-4c02-b58a-d24ae9b3d545")
-		)
-		(pin "44"
-			(uuid "6bbf6c8c-e0ae-442c-91b9-b4956a42840a")
-		)
-		(pin "45"
-			(uuid "a094a5b1-1d3c-4db0-a8c0-6eda38ca776f")
-		)
-		(pin "46"
-			(uuid "614b7a36-3afe-4c1a-9fd2-324e2ca5627f")
-		)
-		(pin "47"
-			(uuid "71a30307-c55a-4a40-9271-1fb2e351a8ce")
-		)
-		(pin "48"
-			(uuid "925cf8d4-e4ac-48e2-a677-da1000cb67c0")
-		)
-		(pin "49"
-			(uuid "3b808dfe-3771-4af2-be13-b4e44e7b02f3")
-		)
-		(pin "5"
-			(uuid "f322086b-1671-48c3-b5ff-c0b8bc608087")
-		)
-		(pin "50"
-			(uuid "7697113d-0dde-43ba-9f4a-cdbab61f2e9e")
-		)
-		(pin "51"
-			(uuid "7ecbb317-8037-4331-9ba3-bd7c7055d9eb")
-		)
-		(pin "52"
-			(uuid "9888ddb1-5f7c-4638-937e-f9fe2e5cea0a")
-		)
-		(pin "53"
-			(uuid "d904b4c6-1d4c-41a7-94af-59319ac3814f")
-		)
-		(pin "54"
-			(uuid "70134779-2930-4934-9782-cef18517160c")
-		)
-		(pin "55"
-			(uuid "4d7ed580-d074-4fdb-8888-5083c83eeefa")
-		)
-		(pin "56"
-			(uuid "9160453c-e8a4-4403-a83a-b6c9341a9964")
-		)
-		(pin "57"
-			(uuid "3ba1569d-e25b-4ef9-ba09-e1b4c7cea57d")
-		)
-		(pin "58"
-			(uuid "db520c60-b5c3-4fb0-8759-8ef9ee68a52e")
-		)
-		(pin "59"
-			(uuid "4f7ec165-a955-4860-8fb1-caa3ce8124b6")
-		)
-		(pin "6"
-			(uuid "1089f8f3-63a6-4726-874c-3de935452d56")
-		)
-		(pin "60"
-			(uuid "14935677-495a-4671-b8af-47f47113c345")
-		)
-		(pin "61"
-			(uuid "141510b4-021b-4cd1-939f-0b914f0964a2")
-		)
-		(pin "62"
-			(uuid "081cf85e-1fc9-41b1-a816-faaaea9154e8")
-		)
-		(pin "63"
-			(uuid "24893061-71f6-4ceb-a02a-85ad1d9d90b2")
-		)
-		(pin "64"
-			(uuid "6444a3c7-71e7-4d37-bc3b-923d6d2adb56")
-		)
-		(pin "7"
-			(uuid "5ddd22cb-5059-4efd-aefb-4a772c844022")
-		)
-		(pin "8"
-			(uuid "4aeb5bfa-85c2-424f-97b5-6c187d2fa4b8")
-		)
-		(pin "9"
-			(uuid "f3142f30-58f9-4d4c-ae64-7dd83df4f747")
-		)
-		(instances
-			(project "Rapid_Core-RCP"
-				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
 		(at 40.64 115.57 0)
@@ -17769,6 +17486,263 @@
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCU_ST_STM32F4:STM32F446RETx")
+		(at 234.95 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddf7456c-88f3-48c0-948a-218c93def75a")
+		(property "Reference" "U1"
+			(at 239.6841 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F446RETx"
+			(at 239.6841 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446re.pdf"
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 50 GPIO, LQFP64"
+			(at 234.95 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "dcbd2e99-4b79-407e-a269-34bd3039a6ac")
+		)
+		(pin "25"
+			(uuid "25a093ce-d324-473b-a0e4-b67cc1c74362")
+		)
+		(pin "40"
+			(uuid "42073a14-29bc-4431-b294-03918f5b2635")
+		)
+		(pin "38"
+			(uuid "e1191382-4fd9-47cc-9f3a-d8c24115778f")
+		)
+		(pin "42"
+			(uuid "4d9e3ecf-8505-48c2-90b2-e9779e31d593")
+		)
+		(pin "50"
+			(uuid "19cad068-6fa3-4aa5-ac7e-8a754026c38a")
+		)
+		(pin "51"
+			(uuid "b215eb05-ba62-4b73-a672-d90ccb53d6a4")
+		)
+		(pin "14"
+			(uuid "74da2cca-a3a7-448c-a530-d9a1a9dd3598")
+		)
+		(pin "17"
+			(uuid "8b03696d-046b-4147-8885-b477e7fc181d")
+		)
+		(pin "24"
+			(uuid "e5203da6-eded-457e-8bce-8564f168af86")
+		)
+		(pin "45"
+			(uuid "eafe9d85-3d34-4cb5-ac2a-c0af87f33248")
+		)
+		(pin "52"
+			(uuid "5466608d-0b7f-4c6f-b89b-73b0320a8ee0")
+		)
+		(pin "28"
+			(uuid "590eec05-270f-4897-9332-7e7f5a31a66e")
+		)
+		(pin "54"
+			(uuid "5ab51679-d58b-4033-82bc-27fa37f49cc3")
+		)
+		(pin "48"
+			(uuid "1ee28647-fec4-4032-beae-b704da79820a")
+		)
+		(pin "56"
+			(uuid "60028bba-529b-4a76-b1d7-7fa7410ecaec")
+		)
+		(pin "59"
+			(uuid "391f917c-a28f-41bf-b759-8fe6d173a809")
+		)
+		(pin "6"
+			(uuid "b67c7f20-d45b-42e1-935d-dc1b5b9775f2")
+		)
+		(pin "1"
+			(uuid "82310753-0433-4d4e-8dfd-2df432d25c16")
+		)
+		(pin "31"
+			(uuid "8f6d435c-9db2-4d81-8c81-24258d5b9f49")
+		)
+		(pin "13"
+			(uuid "18144be3-4ece-409d-9cc7-d7fe404166af")
+		)
+		(pin "27"
+			(uuid "4b5eb61b-6670-4ccd-a8fd-04c2dbe2ea70")
+		)
+		(pin "43"
+			(uuid "038c99d6-99d5-4c39-b887-23929bec3825")
+		)
+		(pin "60"
+			(uuid "8546d684-237e-448c-95c6-00c0720d6617")
+		)
+		(pin "20"
+			(uuid "5826fdca-8503-4f6b-a136-9985c0bda7e4")
+		)
+		(pin "23"
+			(uuid "7d9c366b-1a16-4dbf-bb2e-fcfa0ddb8ef9")
+		)
+		(pin "29"
+			(uuid "d9972858-f616-407c-a1d2-6531d61baada")
+		)
+		(pin "34"
+			(uuid "41c9f2ee-33c4-466f-a440-d48f9b99a8b5")
+		)
+		(pin "10"
+			(uuid "f58b940d-7fbf-4898-b281-f4c42b302bab")
+		)
+		(pin "18"
+			(uuid "3bc884ae-4d4a-4722-8079-d2b5d3b5d69c")
+		)
+		(pin "44"
+			(uuid "fcc69558-adf1-46a7-a466-daef9bf1e887")
+		)
+		(pin "21"
+			(uuid "67e1e8d4-b3e0-40c8-8666-3a85a193e75e")
+		)
+		(pin "11"
+			(uuid "0e269c0a-3650-48f1-b009-239efdb5f833")
+		)
+		(pin "2"
+			(uuid "4b95e82e-cb15-4aab-bed4-746f5ea01509")
+		)
+		(pin "49"
+			(uuid "21b372aa-63cc-401b-bd5d-20d0562380f4")
+		)
+		(pin "33"
+			(uuid "7fb98525-5c80-496c-84d7-b62852d1c059")
+		)
+		(pin "5"
+			(uuid "49faaaf5-dff5-47c6-b6ba-e3b655ce2c77")
+		)
+		(pin "39"
+			(uuid "6ca1fb8b-f830-49a3-b883-6a2515ef92a0")
+		)
+		(pin "61"
+			(uuid "8e9a4db8-65d6-4906-9c63-136c0c3fd3f1")
+		)
+		(pin "55"
+			(uuid "f79ecc0f-41a5-4ac0-838f-6671320bb7ca")
+		)
+		(pin "62"
+			(uuid "9d8f42a0-45e4-407e-a1e9-faca3f37761d")
+		)
+		(pin "64"
+			(uuid "9822b735-5439-4c69-b850-c6b2ee451f3b")
+		)
+		(pin "30"
+			(uuid "f70df79e-c684-4c17-b609-f080ba71e257")
+		)
+		(pin "7"
+			(uuid "e628c253-f7b0-46fe-b2a0-672d50d2f110")
+		)
+		(pin "19"
+			(uuid "a2f7b3d3-ec52-47d2-a69c-614799814d7c")
+		)
+		(pin "37"
+			(uuid "828145e1-c829-483a-b814-623b9a0f13f6")
+		)
+		(pin "57"
+			(uuid "441ce52d-edd5-402f-a8ef-b2e0a3bff2bf")
+		)
+		(pin "32"
+			(uuid "1659caf7-f36f-4122-b5a0-d9e65b88c4e1")
+		)
+		(pin "47"
+			(uuid "0228c3c6-ac17-44ff-a50f-d9bc63427bd9")
+		)
+		(pin "15"
+			(uuid "833acbf3-73de-4fe5-93d7-4ec95d902ce7")
+		)
+		(pin "26"
+			(uuid "58fa23db-534d-4b41-820c-2d18e6d7aa4a")
+		)
+		(pin "63"
+			(uuid "3f94baee-206d-4ad2-aad0-217f4011571a")
+		)
+		(pin "41"
+			(uuid "edddbe0f-3f5e-4e5c-bf15-b22f3a719e92")
+		)
+		(pin "8"
+			(uuid "8eb8d0f2-d797-467f-99af-c0100a259c27")
+		)
+		(pin "9"
+			(uuid "db031503-ef85-4d28-8e84-bdf3be74dea3")
+		)
+		(pin "46"
+			(uuid "fb1f38f4-ad59-4df0-87bd-b0b47d7a2a0b")
+		)
+		(pin "53"
+			(uuid "a65bb35b-c507-4851-87c7-c11a606fe581")
+		)
+		(pin "58"
+			(uuid "68157c10-8c5d-4b42-9313-b23ec1e2c36a")
+		)
+		(pin "12"
+			(uuid "4605793c-65ca-48a6-9311-5c82ee630422")
+		)
+		(pin "16"
+			(uuid "f19124c1-11cb-4904-abd8-b3714e46f1d0")
+		)
+		(pin "3"
+			(uuid "5d9a4ee9-6110-47b9-9906-d7f110249bda")
+		)
+		(pin "22"
+			(uuid "51b17e6a-988a-41e7-9d8b-81f264f206d3")
+		)
+		(pin "35"
+			(uuid "698a209e-c89d-47fa-90ab-6c68d7041738")
+		)
+		(pin "36"
+			(uuid "29c660b7-a368-4f35-a607-cb56daff14e7")
+		)
+		(instances
+			(project ""
+				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4"
+					(reference "U1")
 					(unit 1)
 				)
 			)
