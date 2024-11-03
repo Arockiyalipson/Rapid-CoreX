@@ -17,43 +17,22 @@ Rapid-CoreX is a versatile Electronic Control Unit (ECU) designed for embedded s
 
 ```bash
 Rapid-CoreX
-        │   LICENSE
-        │   README.md
         │
         ├───Design
-        │       Communication_interface.kicad_sch
-        │       Rapid_Core-RCP.kicad_pcb
-        │       Rapid_Core-RCP.kicad_pro
-        │       Rapid_Core-RCP.kicad_sch
         │
         ├───Images
-        │       Image.txt
         │
+        ├───Library
+        │   ├───Symbols
+        │   ├───Footprint
+        │   └───3D_Images
         ├───Manufacturing_files
         │   ├───Bom file
-        │   │       BOM.txt
-        │   │
         │   ├───Component position files
-        │   │       Comp_pos.txt
-        │   │
         │   ├───Drill files
-        │   │       Drill.txt
-        │   │
         │   ├───Gerber files
-        │   │       Gerber.txt
-        │   │
         │   └───Reference_material
-        │           PDF.txt
-        │
         └───Reference
-                Application_note_for_STM32F4_family.pdf
-                Common_mode_choke_less_CAN_BUS.pdf
-                ISO1042-Q1_ISO_CAN_Datasheet.pdf
-                ISO_3088_RS-485_ISO.pdf
-                Reference_mannual_STM32F446xx.pdf
-                Reference.ioc
-                RS-485_Design_guide.pdf
-                stm32f446xx_Data_Sheet.pdf
 ```
 
 ## Features
@@ -87,9 +66,7 @@ Rapid-CoreX is equipped with various ports to facilitate connectivity:
 - **2 x CAN** ports for network communication.
 - **2 x RS-485** ports (USART) for long-distance and robust communication.
 - **2 x LIN** ports for automotive applications.
-- **2 x External SPI** ports for additional SPI device connectivity.
-- **2 x I2C** ports for connecting multiple sensors or devices.
-- **1 x I2C** with integrated SHT30 sensor for humidity and temperature measurement.
+- **1 x External SPI** ports for additional SPI device connectivity.
 
 ### GPIO Features
 
@@ -129,4 +106,3 @@ To use Rapid-CoreX, ensure you have the following:
 ## Contact
 
 For more information, please contact [Arockiya Lipson](https://www.linkedin.com/in/arockiya-lipson-458b12214).
-
