@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "28e3ba26-e0e2-4fa6-8f62-cfd83e5838f9")
+	(paper "A4")
+	(title_block
+		(title "Rapid-Core")
+		(date "2024-09-09")
+		(rev "1.0.1")
+	)
+	(lib_symbols)
+)

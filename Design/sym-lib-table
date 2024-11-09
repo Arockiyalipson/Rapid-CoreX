@@ -8,4 +8,5 @@
   (lib (name "PTS636 SK25F SMTR LFS_Tact_SW")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Rapid-CoreX/Rapid-CoreX/Library/Symbols/PTS636 SK25F SMTR LFS_Tact_SW.kicad_sym")(options "")(descr ""))
   (lib (name "SHT30A-DIS-B2_5KS")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Rapid-CoreX/Rapid-CoreX/Library/Symbols/SHT30A-DIS-B2_5KS.kicad_sym")(options "")(descr ""))
   (lib (name "TLIN1039DDFRQ1")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Rapid-CoreX/Rapid-CoreX/Library/Symbols/TLIN1039DDFRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "XT60PW-F_Connector")(type "KiCad")(uri "${RAPID_CORE_X_SYMBOLS}/XT60PW-F_Connector.kicad_sym")(options "")(descr ""))
 )

@@ -1,0 +1,180 @@
+(footprint "AMASS_XT60PW-F"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.81 0)
+		(layer "F.SilkS")
+		(uuid "c161db6a-e45e-49a3-a398-3a2f71c81b47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AMASS_XT60PW-F"
+		(at 1.14 16.385 0)
+		(layer "F.Fab")
+		(uuid "a7f19f22-3aeb-40d9-b9fd-76b698654459")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -2.19 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "548c3801-0806-47fd-88a5-53d9f79ac0fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -2.19 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6ac07f8-d460-4ab0-8014-9c105848fc97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "XT 60 Connector Female"
+		(at -0.1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e76792d-be30-4cc6-8352-f77ff3574828")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7.62 -4.73)
+		(end 7.62 5.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "31017b71-c0c6-4d8f-9de9-6f1d00d5a279")
+	)
+	(fp_circle
+		(center -6.6 -3.8)
+		(end -6.4 -3.8)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0b421701-dd3d-4060-b552-205220585960")
+	)
+	(fp_rect
+		(start -8 -5.19)
+		(end 8 5.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4f5217af-35d2-4b38-9609-965969b3ebd4")
+	)
+	(fp_rect
+		(start -7.62 -4.73)
+		(end 7.62 5.43)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "354dd745-9d0a-42cf-b65b-7b4d987da1bd")
+	)
+	(fp_circle
+		(center -6.6 -3.8)
+		(end -6.4 -3.8)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2b304d88-1c26-442d-b087-2bfa1b885401")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.08 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5be57a7a-a736-408b-b5b8-f442d945be46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.6 -2.19)
+		(size 3.716 3.716)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "45c0114e-6fdd-459e-ad98-d3ad2f4260de")
+	)
+	(pad "2" thru_hole circle
+		(at 3.6 -2.19)
+		(size 3.716 3.716)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2ae39a46-0fe2-4356-b55f-ae8675d2db00")
+	)
+	(pad "S1" thru_hole oval
+		(at -6.75 3.81)
+		(size 1.3 2.6)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d9f6d7fe-ec1c-4240-b274-e0df8ef08d6e")
+	)
+	(pad "S2" thru_hole oval
+		(at 6.75 3.81)
+		(size 1.3 2.6)
+		(drill oval 0.6 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "51a167c2-911e-4e4d-8f5c-0e3f19784326")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/XT60PW-F_Connector.3dshapes/XT60PW-F.step"
+		(offset
+			(xyz 0 2 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

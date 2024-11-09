@@ -6,7 +6,7 @@
 	(descr "DDF0008A")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0.3302 -2.54 0)
+		(at 0.3302 0 0)
 		(layer "F.SilkS")
 		(uuid "ca2fbcf0-de7b-402f-aa30-c1597b1e401b")
 		(effects
@@ -211,8 +211,8 @@
 		(uuid "7c4003ed-ed06-475a-bbaf-2865b21e3ac2")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

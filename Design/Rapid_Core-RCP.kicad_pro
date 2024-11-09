@@ -495,7 +495,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "BOOT0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(184, 187, 255, 0.471)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -512,7 +512,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Buck",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 18, 22)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -529,7 +529,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(95, 255, 97)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -546,7 +546,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND_1",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(212, 209, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -563,7 +563,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND_2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(177, 255, 190, 0.490)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -580,7 +580,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GPIO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(251, 0, 255, 0.329)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -597,7 +597,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "HUM_sensor",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(218, 255, 200)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -614,7 +614,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "LDO",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 144, 84)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -631,7 +631,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "LIN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(160, 161, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -648,7 +648,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "NRST",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 247, 165)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -665,7 +665,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Oscillator",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 50, 247)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -682,7 +682,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 36, 41)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -699,7 +699,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "PWR_LED",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(255, 42, 40, 0.502)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -716,7 +716,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RS_485",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(255, 253, 47, 0.502)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -733,7 +733,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 139, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -750,7 +750,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SWD_Debug",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(196, 255, 145)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -767,7 +767,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(199, 247, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -784,7 +784,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USR_LED",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgba(39, 0, 255, 0.510)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -801,7 +801,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VCAP",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 41, 55)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -817,95 +817,87 @@
     "netclass_patterns": [
       {
         "netclass": "CAN",
-        "pattern": "CAN*"
-      },
-      {
-        "netclass": "CAN",
-        "pattern": "/Communication_interface/CAN*"
+        "pattern": "/Project_Architecture/Comm - Isolated_CAN/*"
       },
       {
         "netclass": "RS_485",
-        "pattern": "RS-485*"
-      },
-      {
-        "netclass": "RS_485",
-        "pattern": "/Communication_interface/RS-485*"
-      },
-      {
-        "netclass": "Buck",
-        "pattern": "/Power_Stage/LM*"
-      },
-      {
-        "netclass": "LDO",
-        "pattern": "/Power_Stage/LDO*"
-      },
-      {
-        "netclass": "PWR_LED",
-        "pattern": "/Power_Stage/PWR_LED*"
-      },
-      {
-        "netclass": "Oscillator",
-        "pattern": "/HSE*"
-      },
-      {
-        "netclass": "Oscillator",
-        "pattern": "/RCC*"
+        "pattern": "/Project_Architecture/Comm - Isolated_RS-485/*"
       },
       {
         "netclass": "LIN",
-        "pattern": "/LIN*"
+        "pattern": "/Project_Architecture/Comm - LIN/*"
       },
       {
         "netclass": "SPI",
-        "pattern": "/SPI*"
-      },
-      {
-        "netclass": "GPIO",
-        "pattern": "/GPIO*"
-      },
-      {
-        "netclass": "USR_LED",
-        "pattern": "/USR_LED*"
+        "pattern": "/Project_Architecture/GPIO/SPI*"
       },
       {
         "netclass": "SWD_Debug",
-        "pattern": "/SW*"
+        "pattern": "/Project_Architecture/GPIO/SW*"
       },
       {
-        "netclass": "HUM_sensor",
-        "pattern": "/I2C*"
+        "netclass": "USART",
+        "pattern": "/Project_Architecture/GPIO/USART*"
       },
       {
         "netclass": "NRST",
-        "pattern": "/NRST"
+        "pattern": "/Project_Architecture/GPIO/NRST*"
       },
       {
-        "netclass": "BOOT0",
-        "pattern": "/BOOT0"
+        "netclass": "GPIO",
+        "pattern": "/Project_Architecture/GPIO/GPIO*"
       },
       {
         "netclass": "USR_LED",
-        "pattern": "/LED*"
+        "pattern": "/Project_Architecture/Indication - USR/USR*"
+      },
+      {
+        "netclass": "USR_LED",
+        "pattern": "/Project_Architecture/Indication - USR/LED*"
+      },
+      {
+        "netclass": "PWR_LED",
+        "pattern": "/Project_Architecture/Indication - USR/PWR*"
+      },
+      {
+        "netclass": "HUM_sensor",
+        "pattern": "/Project_Architecture/MCU/I2C*"
+      },
+      {
+        "netclass": "BOOT0",
+        "pattern": "/Project_Architecture/MCU/BOOT*"
+      },
+      {
+        "netclass": "Oscillator",
+        "pattern": "/Project_Architecture/MCU/HSE*"
+      },
+      {
+        "netclass": "Oscillator",
+        "pattern": "/Project_Architecture/MCU/RCC*"
+      },
+      {
+        "netclass": "VCAP",
+        "pattern": "/Project_Architecture/MCU/VCAP*"
+      },
+      {
+        "netclass": "LDO",
+        "pattern": "/Project_Architecture/Power - Generation/LDO*"
+      },
+      {
+        "netclass": "Buck",
+        "pattern": "/Project_Architecture/Power - Generation/LM*"
+      },
+      {
+        "netclass": "GND_1",
+        "pattern": "GND1*"
+      },
+      {
+        "netclass": "GND_2",
+        "pattern": "GND2*"
       },
       {
         "netclass": "PWR",
         "pattern": "+*"
-      },
-      {
-        "netclass": "GND_1",
-        "pattern": "GND1"
-      },
-      {
-        "netclass": "GND_2",
-        "pattern": "GND2"
-      },
-      {
-        "netclass": "USART",
-        "pattern": "/USART*"
-      },
-      {
-        "netclass": "VCAP",
-        "pattern": "/VCAP"
       }
     ]
   },
@@ -1029,6 +1021,60 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NO ",
+          "name": "MANUFACTURER PART NO ",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part No",
+          "name": "Manufacturer Part No",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "manufacturer Part No",
+          "name": "manufacturer Part No",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER PART NO",
+          "name": "MANUFACTURER PART NO",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1051,7 +1097,7 @@
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
-      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_precision": 1,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
@@ -1090,13 +1136,54 @@
       "Root"
     ],
     [
-      "f55b0938-7500-4e0b-96b5-fde9faeb9ba0",
-      "Communication_interface"
+      "0c538225-31f2-4aa8-8a6f-9ca4b0175d32",
+      "Block_Diagram"
     ],
     [
-      "03c0cb4f-19c3-413c-9319-70c93aa2053e",
-      "Power_Stage"
+      "31f15dcd-2d12-4b77-aa4d-ff69e9876080",
+      "Project_Architecture"
+    ],
+    [
+      "0fa43437-c8a6-445a-8d5f-61c7e1f9c7b9",
+      "Power - Generation"
+    ],
+    [
+      "1401aaec-6fda-4635-b78a-5b20a2be34ec",
+      "MCU"
+    ],
+    [
+      "3ad87c0f-dff9-44e1-9550-eb9919a331d1",
+      "Sensing - Hum_Temp"
+    ],
+    [
+      "fc7bdcbf-ad6b-46ec-9d76-e03f164d4505",
+      "GPIO"
+    ],
+    [
+      "3ab54445-f24b-4fcf-a710-1aaeab2ee1cb",
+      "Comm - Isolated_CAN"
+    ],
+    [
+      "864df6d4-e612-4e34-aee5-b43096054518",
+      "Comm - LIN"
+    ],
+    [
+      "9672423f-042d-4ba7-86eb-91cbc6375302",
+      "Comm - Isolated_RS-485"
+    ],
+    [
+      "2a64c138-0f9d-4db8-b9c8-8b614da5a0b1",
+      "Indication - USR"
+    ],
+    [
+      "43eed07e-82f5-47f0-b465-c6dad368156b",
+      "Misc"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_NAME": "Rapid-CoreX",
+    "DATE": "09/09/2024",
+    "NAME": "AR Lipson",
+    "REV": "1.0.0"
+  }
 }

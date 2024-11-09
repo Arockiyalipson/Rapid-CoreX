@@ -12,12 +12,12 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
+				(thickness 0.2)
 			)
 		)
 	)
 	(property "Value" "Humidty_sensor"
-		(at 0.127 -0.2286 0)
+		(at -0.25 -0.25 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "59226c2c-9f43-4dd1-b303-8f2e6dd1e23d")
@@ -67,7 +67,7 @@
 	(attr smd)
 	(fp_circle
 		(center -1.5748 -1.27)
-		(end -1.5748 -1.2192)
+		(end -1.5 -1.25)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -127,16 +127,6 @@
 		(uuid "435c3129-a138-4941-8337-3044510ed5bc")
 	)
 	(fp_line
-		(start -1.25 -0.625)
-		(end -0.625 -1.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "dd19f3f9-66a6-48cf-aef9-9e7b8491e9a5")
-	)
-	(fp_line
 		(start -1.25 1.25)
 		(end -1.25 -1.25)
 		(stroke
@@ -166,14 +156,25 @@
 		(layer "F.Fab")
 		(uuid "33d289be-2829-47d4-afc0-78cb86fb0f5b")
 	)
+	(fp_circle
+		(center -1 -1)
+		(end -1 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dfd73bfa-b05b-46f1-9e22-5d0a04c65932")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0.3048 -0.3302 0)
+		(at -0.25 0 0)
 		(layer "F.Fab")
 		(uuid "373b451c-28da-4f8e-9b43-4ceaa06b34ac")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)

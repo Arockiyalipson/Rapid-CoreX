@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.425 -4.075 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "c48900d0-ef60-470d-a0b5-bdfc3f8a2860")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "IC_AMC1311BQDWVQ1"
-		(at 4.195 4.065 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "5d0fe210-0fc4-483e-b537-08132ae4f32c")
 		(effects
@@ -103,8 +103,8 @@
 		(uuid "ffe1a202-6ab2-4fd0-847b-c56aa6acf29e")
 	)
 	(fp_circle
-		(center -7 -1.9)
-		(end -6.9 -1.9)
+		(center -5.5 -2.75)
+		(end -5.4 -2.75)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -290,8 +290,8 @@
 		(uuid "256da3bc-7d32-4f6d-9096-850f60d8d992")
 	)
 	(fp_circle
-		(center -7 -1.9)
-		(end -6.9 -1.9)
+		(center -3.25 -2.5)
+		(end -3.15 -2.5)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -299,6 +299,19 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "05e32133-6e05-4b05-bb1a-7ed071916ec7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -5.08 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c81d8eee-3d64-4ec1-a813-bb885a886cf2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd rect
 		(at -5.45 -1.905)
