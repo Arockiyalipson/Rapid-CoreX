@@ -170,9 +170,21 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#10")
 		)
 		(uuid "060c53b6-c3e9-4e35-86e6-281d39f89e6f")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 81.026 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1983a1ea-64c9-4e9d-a884-8260246ed6ec")
 	)
 	(text "Top Side image of the PCB"
 		(exclude_from_sim no)
@@ -184,7 +196,7 @@
 		)
 		(uuid "2ee603f4-6605-431e-8c9f-f2a9d297251b")
 	)
-	(text "MISC"
+	(text "Indication - USR"
 		(exclude_from_sim no)
 		(at 83.185 57.15 0)
 		(effects
@@ -208,11 +220,10 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#8")
 		)
 		(uuid "3a88345f-9286-497a-bbf8-3ae48bc83f3b")
 	)
-	(text "Power_Conversion"
+	(text "Comm - Isolated_CAN"
 		(exclude_from_sim no)
 		(at 14.478 109.728 0)
 		(effects
@@ -240,20 +251,6 @@
 		)
 		(uuid "422d8f98-ff7d-4dd2-b20c-c450b87b3ad5")
 	)
-	(text "Random Sheet 1"
-		(exclude_from_sim no)
-		(at 83.185 80.01 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#4")
-		)
-		(uuid "488d8da1-b9f5-46bf-9242-66855552fd17")
-	)
 	(text "..........................................."
 		(exclude_from_sim no)
 		(at 83.185 118.11 0)
@@ -264,25 +261,10 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#9")
 		)
 		(uuid "51f34ad7-e533-43bd-a6a8-dbe03a6f6b07")
 	)
-	(text "Revision History"
-		(exclude_from_sim no)
-		(at 83.185 102.87 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#7")
-		)
-		(uuid "53c17517-630e-41ec-9834-cb9160521cef")
-	)
-	(text "Hum_Temp"
+	(text "Comm - LIN"
 		(exclude_from_sim no)
 		(at 13.97 118.11 0)
 		(effects
@@ -320,9 +302,9 @@
 		)
 		(uuid "6912819f-e9f6-4582-99de-12db5b880e3b")
 	)
-	(text "Power - Sequencing"
+	(text "..........................................."
 		(exclude_from_sim no)
-		(at 83.185 95.25 0)
+		(at 82.296 87.884 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -330,9 +312,8 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#6")
 		)
-		(uuid "73e37b5c-fe29-4ca6-9abb-26bfa0d7c6b0")
+		(uuid "6f283731-1a58-4239-9d54-8bca0e815a3f")
 	)
 	(text "Bottom Side image of the PCB"
 		(exclude_from_sim no)
@@ -385,7 +366,7 @@
 		)
 		(uuid "8bf7b31d-9f25-474b-8e32-7feec780cd76")
 	)
-	(text "Isolated_RS-485"
+	(text "GPIO"
 		(exclude_from_sim no)
 		(at 14.478 101.6 0)
 		(effects
@@ -412,6 +393,32 @@
 			)
 		)
 		(uuid "abe8c919-5b1f-4b7c-b6b6-10d90d58406d")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 82.296 103.124 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b757a94d-bdd4-4c7c-b36e-e6ed1e6e425d")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 82.296 95.504 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8c0c2ca-5dcb-4672-bba6-cf3cb0dfac31")
 	)
 	(text "Index"
 		(exclude_from_sim no)
@@ -454,7 +461,7 @@
 		)
 		(uuid "cc9d2645-06fd-457c-8fd0-818d80337e50")
 	)
-	(text "GPIO"
+	(text "Comm - Isolated_RS-485"
 		(exclude_from_sim no)
 		(at 13.97 125.73 0)
 		(effects
@@ -468,7 +475,7 @@
 		)
 		(uuid "d15538d4-1a92-4e92-91f7-5ebb09356209")
 	)
-	(text "Isolated_CAN"
+	(text "Sensing - Hum_Temp"
 		(exclude_from_sim no)
 		(at 14.478 93.218 0)
 		(effects
@@ -482,9 +489,9 @@
 		)
 		(uuid "d4f3238f-3a19-4931-ac0b-d75198c58e28")
 	)
-	(text "Random Sheet 2"
+	(text "..........................................."
 		(exclude_from_sim no)
-		(at 83.185 87.63 0)
+		(at 80.772 72.898 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -492,9 +499,8 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#5")
 		)
-		(uuid "d6c19ade-7ff2-48ec-8e80-24e6ae270f9e")
+		(uuid "dd370496-a732-4f84-b894-da8e1ab425d1")
 	)
 	(text "MCU"
 		(exclude_from_sim no)
@@ -510,7 +516,7 @@
 		)
 		(uuid "dec00142-eb21-401e-a653-6d9cf997215b")
 	)
-	(text "Project Architecture"
+	(text "Misc - Fid,Holes"
 		(exclude_from_sim no)
 		(at 83.185 64.77 0)
 		(effects
@@ -520,7 +526,7 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#2")
+			(href "#12")
 		)
 		(uuid "ea031d39-2880-454c-a854-ba8ba7dbfd60")
 	)
@@ -538,21 +544,7 @@
 		)
 		(uuid "eaefbac7-70c0-4d01-9342-91194e0d7001")
 	)
-	(text "MCU"
-		(exclude_from_sim no)
-		(at 83.185 72.39 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#3")
-		)
-		(uuid "f231e110-53d6-4d9d-ad8a-b2a0949fff53")
-	)
-	(text "LIN"
+	(text "Power - Generation"
 		(exclude_from_sim no)
 		(at 14.224 78.74 0)
 		(effects

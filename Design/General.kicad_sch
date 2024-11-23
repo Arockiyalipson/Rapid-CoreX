@@ -4293,7 +4293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "201c9aa7-188f-4ca2-900f-ef895785156c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR059"
 			(at 121.92 66.04 0)
 			(effects
 				(font
@@ -4343,7 +4343,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR048")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22bb648e-3fc9-483d-8b59-a12616b1f27d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR061"
 			(at 134.62 123.19 0)
 			(effects
 				(font
@@ -4410,7 +4410,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR049")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -4426,7 +4426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "420855c3-c4fe-46d5-8a4c-0fcb97b84648")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR060"
 			(at 41.91 113.03 0)
 			(effects
 				(font
@@ -4476,7 +4476,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR045")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4534,6 +4534,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a3b798d-2156-4f14-84c5-7db1ee573144")
 		)
@@ -4555,11 +4654,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4c34b25a-096e-4319-8b2f-6d560743953d")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 250.952 44.704 0)
 			(effects
 				(font
@@ -4602,6 +4701,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 247.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ae90f56-3b34-4f7e-914f-65c32d432a14")
 		)
@@ -4620,7 +4818,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4636,7 +4834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c595518-ef9e-4966-954d-302c4b11328b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR063"
 			(at 58.42 130.81 0)
 			(effects
 				(font
@@ -4686,7 +4884,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR046")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4702,7 +4900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73cdcbf6-82c5-4c17-bf46-5f4a18246272")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR064"
 			(at 243.84 133.35 0)
 			(effects
 				(font
@@ -4752,7 +4950,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR054")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4775,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Value" "0u1F"
+		(property "Value" "0.1uF"
 			(at 44.45 125.73 90)
 			(effects
 				(font
@@ -4802,6 +5000,105 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -4877,6 +5174,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9595544f-eabe-41bc-94e1-2661a6bb5b97")
 		)
@@ -4898,11 +5294,11 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b71e690f-1d21-4911-af0e-441252b67644")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 131.572 40.64 0)
 			(effects
 				(font
@@ -4945,6 +5341,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 138.43 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8caf547c-c503-41f3-bcc9-dc045bc7bd83")
 		)
@@ -4966,7 +5461,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4978,12 +5473,12 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcab5414-a4d5-419a-b6ad-be28115b92b0")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 140.335 115.57 0)
 			(effects
 				(font
@@ -5026,6 +5521,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 140.97 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "293c0f07-b710-450e-a816-9581a75cb996")
 		)
@@ -5044,7 +5638,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc981a27-d7b1-440d-a3c7-103b3e3e57d2")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR057"
 			(at 121.92 48.26 0)
 			(effects
 				(font
@@ -5111,7 +5705,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR047")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5128,7 +5722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc8b54d6-b317-45d8-bfb5-3e38edfdb26b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR056"
 			(at 232.41 43.18 0)
 			(effects
 				(font
@@ -5178,7 +5772,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR051")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5783,7 @@
 		(at 234.95 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e5123ca5-34cc-4209-90ef-2316ed69c0c5")
@@ -5236,6 +5830,105 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Digi" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 1's Ele 14" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Digi" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price 10's Ele 14" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi _key" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part No" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d0d04639-5372-441c-b739-bce0d482fb70")
 		)
@@ -5267,7 +5960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efee9574-5ad1-452c-a78e-d6c4fdb27ee1")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR062"
 			(at 243.84 123.19 0)
 			(effects
 				(font
@@ -5317,7 +6010,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR053")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -5334,7 +6027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4cd14f8-af5f-4032-a295-7c8df1902ff0")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 242.57 55.88 0)
 			(effects
 				(font
@@ -5384,7 +6077,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5401,7 +6094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5696e30-e4d1-487d-aaa4-8cf72b2db12e")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR065"
 			(at 134.62 138.43 0)
 			(effects
 				(font
@@ -5451,7 +6144,7 @@
 		(instances
 			(project "Rapid_Core-RCP"
 				(path "/1a5d67a4-b410-4c7a-b64e-9e0193c8e6b4/31f15dcd-2d12-4b77-aa4d-ff69e9876080/fc7bdcbf-ad6b-46ec-9d76-e03f164d4505"
-					(reference "#PWR050")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
