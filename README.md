@@ -1,4 +1,4 @@
-# Rapid_CoreX (Under Development)
+# Rapid_CoreX 
 
 ![KiCad](https://img.shields.io/badge/Tool-KiCad-blue?logo=kicad)
 ![STM32CubeMX](https://img.shields.io/badge/Tool-STM32CubeMX-brightgreen?logo=stmicroelectronics)
@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Rapid-CoreX is a versatile Electronic Control Unit (ECU) designed for embedded systems development, testing, and integration. It supports essential communication protocols and allows for easy connection and testing of various sensors or devices using MATLAB software. Rapid-CoreX is particularly useful for testing external parameters of Battery Management Systems (BMS), motor controllers, and other connected devices.
+Rapid-CoreX is a versatile Rapid control prototyping (RCP) designed for embedded systems development, testing, and integration. It supports essential communication protocols and allows for easy connection and testing of various sensors or devices using MATLAB software. Rapid-CoreX is particularly useful for testing external parameters of Battery Management Systems (BMS), motor controllers, and other connected devices.
 
 ## Tools Used
 
