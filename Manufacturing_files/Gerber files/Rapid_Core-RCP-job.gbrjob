@@ -1,0 +1,204 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.5"
+    },
+    "CreationDate": "2024-11-25T15:58:14+05:30"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Rapid_Core-RCP",
+      "GUID": "52617069-645f-4436-9f72-652d5243502e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 135.2,
+      "Y": 70.2
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.6,
+    "Finish": "HAL lead-free"
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.3,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "Rapid_Core-RCP-F_Cu(SIG).gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-In1_Cu (GND).gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-In2_Cu (SIG PWR 5V).gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-In3_Cu (GND).gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-In4_Cu (SIG PWR 3_3V ).gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-B_Cu (GND ).gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Rapid_Core-RCP-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Rapid_Core-RCP-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Rapid_Core-RCP-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu(SIG)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "F.Cu(SIG)/In1.Cu (GND)",
+      "Notes": "Type: dielectric layer 1 (from F.Cu(SIG) to In1.Cu (GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In1.Cu (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "In1.Cu (GND)/In2.Cu (SIG PWR 5V)",
+      "Notes": "Type: dielectric layer 2 (from In1.Cu (GND) to In2.Cu (SIG PWR 5V))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In2.Cu (SIG PWR 5V)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In2.Cu (SIG PWR 5V)/In3.Cu (GND)",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu (SIG PWR 5V) to In3.Cu (GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In3.Cu (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.535,
+      "Material": "FR4",
+      "Name": "In3.Cu (GND)/In4.Cu (SIG PWR 3.3V )",
+      "Notes": "Type: dielectric layer 4 (from In3.Cu (GND) to In4.Cu (SIG PWR 3.3V ))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "In4.Cu (SIG PWR 3.3V )"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 0.1,
+      "Material": "FR4",
+      "Name": "In4.Cu (SIG PWR 3.3V )/B.Cu (GND )",
+      "Notes": "Type: dielectric layer 5 (from In4.Cu (SIG PWR 3.3V ) to B.Cu (GND ))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu (GND )"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

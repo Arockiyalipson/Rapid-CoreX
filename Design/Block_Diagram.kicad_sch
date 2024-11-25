@@ -10,4 +10,18 @@
 		(rev "1.0.1")
 	)
 	(lib_symbols)
+	(text "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 138.176 19.558 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 0.254)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "dfa953cd-4ed7-41b1-9e7c-bf148a530571")
+	)
 )

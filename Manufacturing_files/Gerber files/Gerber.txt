@@ -1,1 +1,0 @@
-This folder has Gerber files of the BMS Board
