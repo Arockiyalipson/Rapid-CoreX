@@ -1,0 +1,145 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "W25Q32JVXGIQ_TR"
+   (description "NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 32M-bit 4M x 8 6ns 8-Pin XSON EP T/R")
+   (family "ANA")
+   (package "SON80P400X400X50-9N")
+   (attribute "Datasheet Link" "http://www.winbond.com/resource-files/w25q32jv%20spi%20revf%2005112017.pdf")
+   (attribute "Geometry.Height" "0.5mm")
+   (attribute "Mouser Part Number" "454-W25Q32JVXGIQTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q32JVXGIQ-TR?qs=qSfuJ%252Bfl%2Fd71%2Fr1STvAXaQ%3D%3D")
+   (attribute "Manufacturer_Name" "Winbond")
+   (attribute "Manufacturer_Part_Number" "W25Q32JVXGIQ TR")
+   (gate
+    (symbol "W25Q32JVXGIQ_TR")
+    (pin "$CS$" 1 PS)
+    (pin "DO_(IO1)" 2 PS)
+    (pin "$WP_(IO2)$" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "EP" 9 PS)
+    (pin "VCC" 8 PS)
+    (pin "$HOLD_OR_RESET_(IO3)$" 7 PS)
+    (pin "CLK" 6 PS)
+    (pin "DI_(IO0)" 5 PS)
+   )
+  )
+  (symbol "W25Q32JVXGIQ_TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2000 100) (pt 2000 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SON80P400X400X50-9N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.625 2.3)
+      (pt 2.625 2.3)
+      (pt 2.625 -2.3)
+      (pt -2.625 -2.3)
+      (pt -2.625 2.3))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 2)
+      (pt 2 2)
+      (pt 2 -2)
+      (pt -2 -2)
+      (pt -2 2))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2 1)
+      (pt -1 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.25)
+     (circle
+      (pt -2.25 1.875) (pt -2.5 1.875)
+     )
+    )
+   )
+   (leg 1 (pt -1.95 1.2) (padstack 0))
+   (leg 2 (pt -1.95 0.4) (padstack 0))
+   (leg 3 (pt -1.95 -0.4) (padstack 0))
+   (leg 4 (pt -1.95 -1.2) (padstack 0))
+   (leg 5 (pt 1.95 -1.2) (padstack 0))
+   (leg 6 (pt 1.95 -0.4) (padstack 0))
+   (leg 7 (pt 1.95 0.4) (padstack 0))
+   (leg 8 (pt 1.95 1.2) (padstack 0))
+   (leg 9 (pt 0 0) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.35 0.85 0 0 0))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 2.4 3.1 0 0 90))
+   )
+   (model "W25Q32JVXGIQ_TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

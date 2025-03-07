@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'W25Q32JVXGIQ_TR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Winbond", "W25Q32JVXGIQ TR" (!) = "", "SON80P400X400X50-9N", "Small Outline No-lead", "454-W25Q32JVXGIQTR", "https://www.mouser.co.uk/ProductDetail/Winbond/W25Q32JVXGIQ-TR?qs=qSfuJ%252Bfl%2Fd71%2Fr1STvAXaQ%3D%3D", "NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 32M-bit 4M x 8 6ns 8-Pin XSON EP T/R", "http://www.winbond.com/resource-files/w25q32jv%20spi%20revf%2005112017.pdf", "0.5 mm"
+END_PART
+
+END.

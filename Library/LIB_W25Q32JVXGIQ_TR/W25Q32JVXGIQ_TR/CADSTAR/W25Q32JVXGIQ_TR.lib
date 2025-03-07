@@ -1,0 +1,16 @@
+.W25Q32JVXGIQ_TR :1 ;NOR Flash Serial (SPI, Dual SPI, Quad SPI) 3V/3.3V 32M-bit 4M x 8 6ns 8-Pin XSON EP T/R
+SON80P400X400X50-9N
+*STM IC
+*NGS
+*PLB 1="'CS'" 2="DO (IO1)" 3="'WP (IO2)'" 4="GND" 5="DI (IO0)" 6="CLK" 7="'HOLD OR RESET (IO3)'" 8="VCC" 9="EP"
+*MXP 9
+*DFN W25Q32JVXGIQ_TR
+~!Mouser Part Number (454-W25Q32JVXGIQTR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Winbond/W25Q32JVXGIQ-TR?qs=qSfuJ%252Bfl%2Fd71%2Fr1STvAXaQ%3D%3D)
+~!Manufacturer_Name (Winbond)
+~!Manufacturer_Part_Number (W25Q32JVXGIQ TR)
+~!Link Datasheet (http://www.winbond.com/resource-files/w25q32jv%20spi%20revf%2005112017.pdf)
+~!Height (0.5mm)
+~!3D_Model (W25Q32JVXGIQ_TR)
+W25Q32JVXGIQ_TR
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

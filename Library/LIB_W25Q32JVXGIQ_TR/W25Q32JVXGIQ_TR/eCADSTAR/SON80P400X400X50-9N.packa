@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "W25Q32JVXGIQ_TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-10-25-04:50:32)
+    (mountForm default
+        (footprintRef "SON80P400X400X50-9N")
+        (spec "System")
+    )
+)

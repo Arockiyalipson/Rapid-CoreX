@@ -1,0 +1,244 @@
+(footprint "SRP6060FA8R2M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRP6060FA-8R2M-3")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "15993c5f-ffa1-43ab-8e8d-1fe81f52782e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRP6060FA8R2M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c59ede26-287a-4123-8ab3-4011ec684c21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d127101b-8747-405e-b279-68ad61f5a553")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f86fd41-ef0d-4046-bf82-81a4a894ffab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fa27026-f098-4c94-b3e3-49e31d923319")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.3 -3.2)
+		(end 3.3 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b720640-85b5-4edf-a3ac-620c6b0dd45a")
+	)
+	(fp_line
+		(start -3.3 3.2)
+		(end -3.3 -3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04554e58-b835-46f3-847b-14e77606d576")
+	)
+	(fp_line
+		(start 3.3 -3.2)
+		(end 3.3 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff05647c-781c-408f-bf56-2c2ab540c1b8")
+	)
+	(fp_line
+		(start 3.3 3.2)
+		(end -3.3 3.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "252dd7c9-13b0-4c2d-9555-012864381972")
+	)
+	(fp_circle
+		(center -2.9 -3.7)
+		(end -2.9 -3.7)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6990cf13-9414-4b5d-89af-a281d68c1d69")
+	)
+	(fp_line
+		(start -4.3 -4.2)
+		(end 4.3 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d0d63a1-1273-40d3-9317-7603757be629")
+	)
+	(fp_line
+		(start -4.3 4.2)
+		(end -4.3 -4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ed238e7-3c7c-487b-9925-bf888220f617")
+	)
+	(fp_line
+		(start 4.3 -4.2)
+		(end 4.3 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a7a19cb-f0d2-49f0-b80f-d3646cc127ca")
+	)
+	(fp_line
+		(start 4.3 4.2)
+		(end -4.3 4.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d19874ba-ed6c-4579-a469-756943a5d5e0")
+	)
+	(fp_line
+		(start -3.3 -3.2)
+		(end -3.3 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86e61748-b794-4c6e-8361-11fc2dd7774c")
+	)
+	(fp_line
+		(start -3.3 3.2)
+		(end 3.3 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef61287a-3aca-4996-b491-8cc2a28a29c1")
+	)
+	(fp_line
+		(start 3.3 -3.2)
+		(end -3.3 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34c3ea1d-a7c4-41a9-817d-2eb0d370bfe3")
+	)
+	(fp_line
+		(start 3.3 3.2)
+		(end 3.3 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f75021a4-e731-471d-b30e-7b646bfe5de4")
+	)
+	(fp_circle
+		(center -2.9 -3.700001)
+		(end -2.899999 -3.700001)
+		(stroke
+			(width 0.5)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a113a9b3-9158-4bad-ac11-50722125629d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c40f877d-383e-4c4e-98a8-e30a8b98ef49")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -2.075 90)
+		(size 1.65 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "aec5e8a5-e5a0-45a7-a47b-a549c501aa77")
+	)
+	(pad "2" smd rect
+		(at 0 2.075 90)
+		(size 1.65 5.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "693cc567-3ffc-43eb-8d0e-fcce638765ed")
+	)
+	(model "${RAPID_CORE_X_3D}/SRP6060FA-8R2M_Inductor.3dshapes/SRP6060FA-8R2M.stp"
+		(offset
+			(xyz 0 0 1.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

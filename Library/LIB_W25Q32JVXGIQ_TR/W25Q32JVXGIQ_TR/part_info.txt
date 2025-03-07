@@ -1,0 +1,9 @@
+Manufacturer=Winbond
+PartNumber=W25Q32JVXGIQ TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=9
+Version=1.1
+Released=2021-11-30 12:19:18
+Downloaded=2025-03-04 05:21:48
+3D=Y

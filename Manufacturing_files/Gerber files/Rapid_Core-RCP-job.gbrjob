@@ -5,19 +5,19 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2024-11-25T15:58:14+05:30"
+    "CreationDate": "2025-03-07T14:51:54+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Rapid_Core-RCP",
       "GUID": "52617069-645f-4436-9f72-652d5243502e",
-      "Revision": "rev?"
+      "Revision": "REV 1.0.0"
     },
     "Size": {
-      "X": 135.2,
-      "Y": 70.2
+      "X": 130.1,
+      "Y": 85.1
     },
-    "LayerNumber": 6,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "HAL lead-free"
   },
@@ -36,7 +36,6 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.3,
       "TrackToRegion": 0.2,
       "RegionToRegion": 0.2
     }
@@ -58,18 +57,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Rapid_Core-RCP-In3_Cu (GND).gbr",
-      "FileFunction": "Copper,L4,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Rapid_Core-RCP-In4_Cu (SIG PWR 3_3V ).gbr",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "Rapid_Core-RCP-B_Cu (GND ).gbr",
-      "FileFunction": "Copper,L6,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -119,6 +108,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "R80G0B80",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -141,7 +131,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
+      "Thickness": 1.24,
       "Material": "FR4",
       "Name": "In1.Cu (GND)/In2.Cu (SIG PWR 5V)",
       "Notes": "Type: dielectric layer 2 (from In1.Cu (GND) to In2.Cu (SIG PWR 5V))"
@@ -155,32 +145,8 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu (SIG PWR 5V)/In3.Cu (GND)",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu (SIG PWR 5V) to In3.Cu (GND))"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In3.Cu (GND)"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.535,
-      "Material": "FR4",
-      "Name": "In3.Cu (GND)/In4.Cu (SIG PWR 3.3V )",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu (GND) to In4.Cu (SIG PWR 3.3V ))"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In4.Cu (SIG PWR 3.3V )"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "In4.Cu (SIG PWR 3.3V )/B.Cu (GND )",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu (SIG PWR 3.3V ) to B.Cu (GND ))"
+      "Name": "In2.Cu (SIG PWR 5V)/B.Cu (GND )",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu (SIG PWR 5V) to B.Cu (GND ))"
     },
     {
       "Type": "Copper",
@@ -189,6 +155,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "R80G0B80",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
